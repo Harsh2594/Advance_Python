@@ -2,7 +2,7 @@
 
 que1- What is the difference between wrapper and decorator in Python?.<br>
 ans-A wrapper is the inner function defined within a decorator that actually performs the added functionality.<br>
-A decorator is the outer function that takes a function as an argument, defines a wrapper function to modify it, and returns<br> the wrapper.<br>
+A decorator is the outer function that takes a function as an argument, defines a wrapper function to modify it, and returns the wrapper.
 
 Que2-What is function vs decorators in Python?<br>
 Ans- function:- function is a block of code that perform special task,accept inputs(argument),process and return output<br>
