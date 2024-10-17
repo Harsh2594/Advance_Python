@@ -10,10 +10,11 @@ def welcome(func):
     print("Thanks for visit")
   return wrapper  
 
-#Method1:
+#Method1: writing convention of decorators
 #@welcome
 def user(name, greets='Welcome '):
   print(f"{greets} {name}")
-#Method2:
+  
+#Method2: basic logic behind decorator definition
 #user = welcome(user)
 user('harsh')
